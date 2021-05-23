@@ -1,1 +1,2 @@
-console.log('Hola Mundo en JavaScript!');
+const myName = 'UltiRequiem';
+console.log(`Hi ${myName}.`);
