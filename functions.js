@@ -2,10 +2,10 @@ const username = 'Saitama';
 const userAge = 55;
 
 /**
- * metodo bla bla
+ * Method Print Name
  *
- * @param {string} name - es el jjj
- * @param {number} age - es un hfjghjgjh
+ * @param {string} name
+ * @param {number} age
  * */
 function printAge(name, age) {
   console.log(`${name} is ${age} years old.`);
@@ -14,4 +14,4 @@ function printAge(name, age) {
 // Arow function:
 // const printAge = (name,age) => console.log(`${name} is ${age} years old.`)
 
-printAge(username, 'stew');
+printAge(username, userAge);
