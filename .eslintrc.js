@@ -11,5 +11,9 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    quotes: ['warn', 'single', 'avoid-escape'],
+    'no-plusplus': 'off',
+    'prettier/prettier': ['error'],
+    'no-console': 'off',
   },
 };
