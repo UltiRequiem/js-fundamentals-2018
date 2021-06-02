@@ -1,0 +1,27 @@
+{
+  "name": "js-fundamentals-2018",
+  "version": "0.0.0",
+  "description": "JS 2018 Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltiRequiem/js-fundamentals-2018.git"
+  },
+  "keywords": [
+    "Platzi"
+  ],
+  "author": "UltiRequiem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UltiRequiem/js-fundamentals-2018/issues"
+  },
+  "homepage": "https://github.com/UltiRequiem/js-fundamentals-2018#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
