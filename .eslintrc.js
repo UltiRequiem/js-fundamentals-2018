@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     quotes: ['warn', 'single', 'avoid-escape'],
     'no-plusplus': 'off',
+    'on-var': 'off',
     'no-console': 'off',
   },
 };
