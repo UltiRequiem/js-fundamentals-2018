@@ -8,7 +8,7 @@ let weigth = 60;
 const sandwich = 1 
 
 weigth += sandwich
-console.log(weigth)
+// console.log(weigth)
 
 const playSoccer = 3 
 weigth -= playSoccer
