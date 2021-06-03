@@ -1,5 +1,5 @@
-const myName = 'Zero'
+const myName = 'Zero';
 
-console.log('Hi', myName)
+console.log('Hi', myName);
 
 // var,let and const

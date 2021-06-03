@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
+  ignorePatterns: ['node_modules', 'assets', 'eslint:recommended'],
   extends: ['airbnb-base', 'prettier'],
   parserOptions: {
     ecmaVersion: 12,
@@ -13,4 +14,4 @@ module.exports = {
     'no-plusplus': 'off',
     'no-console': 'off',
   },
-}
+};
