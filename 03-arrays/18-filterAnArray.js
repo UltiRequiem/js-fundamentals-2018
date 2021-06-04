@@ -45,3 +45,12 @@ console.log('Las personas altas son:');
 for (let i = 0; i < personasAltas.length; i++) {
   console.log(` - ${personasAltas[i].name}`);
 }
+
+const esBajo = ({ altura }) => altura <= 1.79
+const personasBajas = personas.filter(esBajo);
+
+console.log('Las personas bajas son:');
+
+for (let i = 0; i < personasBajas.length; i++) {
+  console.log(` - ${personasBajas[i].name}`);
+}
