@@ -34,20 +34,19 @@ const paula = {
   altura: 1.76,
 };
 
-const esAlta = ({ altura }) => altura > 1.8;
+const persons = [sacha, alan, martin, dario, vicky, paula];
 
-const personas = [sacha, alan, martin, dario, vicky, paula];
+const esBajo = ({ altura }) => altura <= 1.79;
+const esAlta = ({ altura }) => altura >= 1.8;
 
-const personasAltas = personas.filter(esAlta);
+const personasAltas = persons.filter(esAlta);
+const personasBajas = persons.filter(esBajo);
 
 console.log('Las personas altas son:');
 
 for (let i = 0; i < personasAltas.length; i++) {
   console.log(` - ${personasAltas[i].name}`);
 }
-
-const esBajo = ({ altura }) => altura <= 1.79
-const personasBajas = personas.filter(esBajo);
 
 console.log('Las personas bajas son:');
 

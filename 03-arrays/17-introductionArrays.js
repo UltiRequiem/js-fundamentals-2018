@@ -26,5 +26,7 @@ const persons = [sacha, dario, vicky, paula];
 
 for (let i = 0; i < persons.length; i++) {
   const person = persons[i];
-  console.table(`${person.name} ${person.lastname} measures ${person.height} mts.`);
+  console.log(
+    `${person.name} ${person.lastname} measures ${person.height} mts.`
+  );
 }
