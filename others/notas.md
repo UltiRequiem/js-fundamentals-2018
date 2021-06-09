@@ -15,4 +15,4 @@
 - `function(){}`
 - `" "`
 
-### ‘No voy a bloquear el Event Loop’
+### No voy a bloquear el Event Loop
