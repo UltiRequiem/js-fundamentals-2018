@@ -27,7 +27,7 @@ class Developer extends Person {
   }
 
   promoteTwitter() {
-    console.log(`My Twitter is ${this.twitter}.`);
+    console.log(`My Twitter is https://twitter.com/${this.twitter}.`);
   }
 }
 
@@ -40,7 +40,7 @@ const UltiRequiem = new Developer(
   'UltiRequiem',
   14,
   'Python and JavaScript',
-  '@UltiRequiem'
+  'UltiRequiem'
 );
 UltiRequiem.sayHi();
 UltiRequiem.promoteTwitter();
