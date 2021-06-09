@@ -13,9 +13,8 @@ function isLegal({ edad }) {
 function returnIfIsLegal(persona) {
   if (isLegal(persona)) {
     return `${persona.nombre} es mayor de edad.`;
-  } 
-    return `${persona.nombre} es menor de edad.`;
-  
+  }
+  return `${persona.nombre} es menor de edad.`;
 }
 
 console.log(returnIfIsLegal(zero));

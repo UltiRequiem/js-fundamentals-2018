@@ -29,13 +29,13 @@ const persons = [martin, dario, vicky, paula];
 const personasAltas = persons.filter(esAlta);
 
 const pasarAlturaACms = (persona) => ({
-    ...persona,
-    altura: persona.altura * 100,
-  });
+  ...persona,
+  altura: persona.altura * 100,
+});
 
 const personasCms = persons.map(pasarAlturaACms);
 
 // Original persons
-console.log(persons)
+console.log(persons);
 // New persons
 console.log(personasCms);

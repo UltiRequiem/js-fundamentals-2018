@@ -15,5 +15,5 @@ function imprimirNombreEnMayusculas(persona) {
   return nombre.toUpperCase();
 }
 
-console.log(imprimirNombreEnMayusculas(sacha))
-console.log(imprimirNombreEnMayusculas(dario))
+console.log(imprimirNombreEnMayusculas(sacha));
+console.log(imprimirNombreEnMayusculas(dario));
