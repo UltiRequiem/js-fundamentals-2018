@@ -26,8 +26,6 @@ const esAlta = ({ altura }) => altura > 1.8;
 
 const persons = [martin, dario, vicky, paula];
 
-const personasAltas = persons.filter(esAlta);
-
 const pasarAlturaACms = (persona) => ({
   ...persona,
   altura: persona.altura * 100,
