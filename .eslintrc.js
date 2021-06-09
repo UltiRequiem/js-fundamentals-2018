@@ -13,6 +13,7 @@ module.exports = {
     quotes: ['warn', 'single', 'avoid-escape'],
     'no-plusplus': 'off',
     'on-var': 'off',
+    'max-classes-per-file': 'off',
     'no-console': 'off',
   },
 };
