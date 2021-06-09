@@ -6,3 +6,11 @@
 - `""`
 - `undefined`
 - `NaN`
+
+## Valores Verdaderos:
+
+- `true`
+- `{}`
+- `1`
+- `function(){}`
+- `" "`
