@@ -1,8 +1,3 @@
-/*
- * Un callback es una función que se pasa a otra función como un argumento.
- * Esta función se invoca, después, dentro de la función externa para completar alguna acción.
- */
-
 const fetch = require('node-fetch');
 
 const API_URL = 'https://swapi.dev/api/';
@@ -13,5 +8,11 @@ const PERSON = `${API_URL}${PEOPLE_URL.replace('n', 4)}`;
 fetch(`${PERSON}`)
   .then((response) => response.json())
   .then(({ name }) => {
-    console.log(`Hola yo soy ${name}.`);
+    if (name === 'Darth Vader') {
+      console.log('Yo soy tu Padre.');
+    }else{
+      console.log(`Me llamo ${name}.`);
+    }
   });
+
+// Check ../05-asynchronism/swapi.dev/28-callbacks
