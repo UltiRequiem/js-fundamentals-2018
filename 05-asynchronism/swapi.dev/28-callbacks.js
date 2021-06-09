@@ -1,9 +1,9 @@
 const fetch = require('node-fetch');
 
 const API_URL = 'https://swapi.dev/api/';
-const PEOPLE_URL = 'people/:id';
+const PEOPLE_URL = 'people/n';
 
-const PERSON = `${API_URL}${PEOPLE_URL.replace(':id', 4)}`
+const PERSON = `${API_URL}${PEOPLE_URL.replace('n', 4)}`;
 
 fetch(`${PERSON}`)
   .then((response) => response.json())
