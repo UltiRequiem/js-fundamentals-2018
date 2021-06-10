@@ -38,3 +38,7 @@ Para este problema existen las _promesas_.
 ### Preguntas
 
 - [Syntax for an Async Arrow Function](https://stackoverflow.com/questions/42964102/syntax-for-an-async-arrow-function)
+
+### Tutoriales
+
+- [Exploring Async/Await Functions in JavaScript](https://www.digitalocean.com/community/tutorials/js-async-functions)
