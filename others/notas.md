@@ -28,4 +28,9 @@ Quizas las use en algun otro proyecto.
 
 Yep.
 
+# Promesas
+
+Con los callBacks teníamos un problema al anidarlos.
+Para este problema existen las +promesas\*.
+
 **Mejor curso de Platzi que he tomado hasta ahora.**

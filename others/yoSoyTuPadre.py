@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "https://swapi.dev/api/people/n".replace("n", "5")
+API_URL = "https://swapi.dev/api/people/n".replace("n", "19")
 
 DATA = requests.get(API_URL).json()
 
