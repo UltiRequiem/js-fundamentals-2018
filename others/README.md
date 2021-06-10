@@ -1,4 +1,4 @@
-**Mejor curso de Platzi que he tomado hasta ahora.**
+<ins>**Mejor curso de Platzi que he tomado hasta ahora.**<ins>
 
 ## APIS Interesantes
 
