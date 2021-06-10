@@ -30,7 +30,11 @@ Quizas las use en algun otro proyecto.
 
 Yep.
 
-# Promesas
+### Promesas
 
 Con los callBacks teníamos un problema al anidarlos.
 Para este problema existen las _promesas_.
+
+### Preguntas
+
+- [Syntax for an Async Arrow Function](https://stackoverflow.com/questions/42964102/syntax-for-an-async-arrow-function)

@@ -16,4 +16,6 @@ const onError = () => 'Sucedió un error.';
 const pjIDs = [1, 2, 3, 4, 5];
 
 // wow
-Promise.all(pjIDs.map((id) => getPJ(id))).catch(onError);
+Promise.all(pjIDs.map((id) => getPJ(id)))
+  .then((pj) => console.log(pj))
+  .catch(onError);
