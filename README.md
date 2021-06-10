@@ -10,4 +10,4 @@
 
 ![JS Image](./others/jsimage.jpeg)
 
-Puedes encontrar alguna de mis notas en [others/notas.md](./others/notas.md).
+Puedes encontrar alguna de mis notas en [others/](./others/README.md).
