@@ -1,4 +1,3 @@
-# ./yoSoyTuPadre.js en Python
 import requests
 
 API_URL = "https://swapi.dev/api/people/n".replace("n", "5")
