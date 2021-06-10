@@ -16,14 +16,17 @@ const getPJdata = (id) =>
   });
 
 const getName = (data) => JSON.parse(data);
-const onError = () => 'Sucedió un error.';
+const onError = (id) => `Sucedió un error en la ejecución ${id}.`;
 
 const getPersonajes = async () => {
   const pjIDs = [1, 2, 3, 4, 5];
   const promises = pjIDs.map((id) => getPJdata(id));
-  const personajes = await Promise.all(promises);
-
-  Promise.all(promises)
-    .then((pj) => console.log(pj))
-    .catch(onError);
+  try {
+    const personajes = await Promise.all(promises);
+    console.log(personajes);
+  } catch (id) {
+    console.log(onError(id));
+  }
 };
+
+getPersonajes();
