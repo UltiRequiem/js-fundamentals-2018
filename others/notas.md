@@ -31,6 +31,6 @@ Yep.
 # Promesas
 
 Con los callBacks teníamos un problema al anidarlos.
-Para este problema existen las +promesas\*.
+Para este problema existen las _promesas_.
 
 **Mejor curso de Platzi que he tomado hasta ahora.**
