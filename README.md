@@ -8,6 +8,6 @@
 
 </p>
 
-![JS Image](./others/jsimage.jpeg)
+![JS Image](./others/img/jsimage.jpeg)
 
 Puedes encontrar alguna de mis notas en [others/](./others/README.md).
