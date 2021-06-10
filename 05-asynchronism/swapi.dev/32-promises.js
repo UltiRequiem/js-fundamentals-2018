@@ -1,5 +1,3 @@
-// const fetch = require('node-fetch');
-
 const request = require('request');
 
 const API_URL = 'https://swapi.dev/api/people';
@@ -12,13 +10,10 @@ const getPJ = (id) =>
     });
   });
 
-const getName = (data) => {
-  const { name } = JSON.parse(data);
-  return name;
-};
+const getName = (data) => JSON.parse(data).name;
 
 for (let i = 1; i <= 15; i++) {
   getPJ(i).then((data) => {
-    console.log(`My name is ${getName(data)}.`);
+    console.log(`El personaje ${i} es ${getName(data)}.`);
   });
 }
