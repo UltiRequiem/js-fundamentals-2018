@@ -1,0 +1,3 @@
+[submodule "06-proyect"]
+	path = 06-proyect
+	url = https://github.com/UltiRequiem/SimonDice.js
