@@ -111,11 +111,11 @@ class Juego {
         }
       }
     } else {
-      // Perdió
+      window.alert('Perdiste');
     }
   }
 }
 
-function empezarJuego() {
+const empezarJuego = () => {
   window.juego = new Juego();
-}
+};
