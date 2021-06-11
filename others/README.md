@@ -44,3 +44,4 @@ Para este problema existen las _promesas_.
 - [Exploring Async/Await Functions in JavaScript](https://www.digitalocean.com/community/tutorials/js-async-functions)
 - [Object and Array Destructuring](https://www.digitalocean.com/community/tutorials/js-object-array-destructuring-es2015)
 - [Fetch](https://www.digitalocean.com/community/tutorials/js-fetch-api#fetch--asyncawait)
+- [Hacks for Arrays](https://www.freecodecamp.org/news/https-medium-com-gladchinda-hacks-for-creating-javascript-arrays-a1b80cb372b)

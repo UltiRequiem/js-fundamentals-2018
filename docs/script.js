@@ -27,8 +27,8 @@ class Juego {
 
   generarSecuencia() {
     this.secuencia = new Array(ULTIMO_NIVEL)
-      .fill(0)
-      .map((n) => Math.floor(Math.random() * 4));
+      .fill()
+      .map(() => Math.floor(Math.random() * 4));
   }
 
   siguienteNivel() {
@@ -62,6 +62,8 @@ class Juego {
         return 2;
       case 'verde':
         return 3;
+      default:
+        return 'verde';
     }
   }
 
