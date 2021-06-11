@@ -12,4 +12,4 @@
 
 El proyecto del curso se encuentra en [docs/](./docs) porque GitHub pages solo acepta ese nombre...
 
-Puedes encontrar alguna de mis notas en [others/](./others/README.md).
+Puedes encontrar alguna de mis notas en [others/](./others/).

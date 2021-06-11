@@ -76,3 +76,30 @@ body {
 .hide {
   display: none;
 }
+
+.btn-start {
+  cursor: pointer;
+  width: 420px;
+  height: 100px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  border: none;
+  border-bottom: 4px solid #c4c6c7;
+  border-radius: 8px;
+  font-size: 3em;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 210px);
+  transition: 0.5s;
+  outline: none;
+}
+
+.btn-start:hover {
+  color: #ecf0f1;
+  background: #2c3e50;
+  border-bottom: 4px solid #1f3346;
+}
+
+.btn-start:active {
+  transform: scale(0.95);
+}
