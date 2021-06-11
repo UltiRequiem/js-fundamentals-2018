@@ -19,9 +19,9 @@ function factorial(n) {
     return n;
   }
 
-  // El cahche de este n es igual a n por la llamada recursiva de esta misma función pasandole n - 1.
+  // El cache de este n es igual a n por la llamada recursiva de esta misma función pasandole n - 1.
   this.cache[n] = n * factorial(n - 1);
   return this.cache[n];
 }
 
-console.log(factorial(4));
+console.log(factorial(99));
