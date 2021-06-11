@@ -12,5 +12,3 @@ El proyecto del curso se encuentra en otro repositorio. Puedes visitarlo en: [Ul
 Puedes encontrar alguna de mis notas en [others/](./others/).
 
 El curso se encuentra en: [Platzi](https://platzi.com/clases/fundamentos-javascript-2018)
-
-</body>
