@@ -10,6 +10,7 @@
 
 ![JS Image](./others/img/jsimage.jpeg)
 
-El proyecto del curso se encuentra en [docs/](./docs) porque GitHub pages solo acepta ese nombre...
+El proyecto del curso se encuentra en otro repositorio para poder tener una url mas corta. Puedes visitarlo en:
+https://ultirequiem.github.io/SimonDice.js
 
 Puedes encontrar alguna de mis notas en [others/](./others/).
