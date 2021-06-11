@@ -14,3 +14,5 @@ El proyecto del curso se encuentra en otro repositorio. Puedes visitarlo en:
 https://ultirequiem.github.io/SimonDice.js
 
 Puedes encontrar alguna de mis notas en [others/](./others/).
+
+El curso se encuentra en: https://platzi.com/clases/fundamentos-javascript-2018

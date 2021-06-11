@@ -45,3 +45,4 @@ Para este problema existen las _promesas_.
 - [Object and Array Destructuring](https://www.digitalocean.com/community/tutorials/js-object-array-destructuring-es2015)
 - [Fetch](https://www.digitalocean.com/community/tutorials/js-fetch-api#fetch--asyncawait)
 - [Hacks for Arrays](https://www.freecodecamp.org/news/https-medium-com-gladchinda-hacks-for-creating-javascript-arrays-a1b80cb372b)
+- [I never understood JavaScript clousures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
