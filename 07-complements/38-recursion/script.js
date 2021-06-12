@@ -14,4 +14,4 @@ const divisionEntera = (dividendo, divisor) => {
   return 1 + divisionEntera(dividendo - divisor, divisor);
 };
 
-console.log(divisionEntera(9, 3));
+console.log(divisionEntera(13, 4));
