@@ -10,7 +10,6 @@ const getPJ = (id) =>
     });
   });
 
-const getName = (data) => JSON.parse(data);
 const onError = () => 'Sucedió un error.';
 
 const pjIDs = [1, 2, 3, 4, 5];

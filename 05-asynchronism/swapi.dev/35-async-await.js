@@ -15,7 +15,6 @@ const getPJdata = (id) =>
     });
   });
 
-const getName = (data) => JSON.parse(data);
 const onError = (id) => `Sucedió un error en la ejecución ${id}.`;
 
 const getPersonajes = async () => {
