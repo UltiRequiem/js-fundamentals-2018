@@ -1,4 +1,4 @@
-const hello = async () => 'Hello Alligator!';
+const hello = async () => 'Hello Alligator!'
 
 // const b = hello();
 // console.log(b); // [object Promise] { ... }
@@ -14,4 +14,4 @@ const hello = async () => 'Hello Alligator!';
 // b.then(x => console.log(x)); // Hello Alligator!
 
 // Hello Alligator!
-hello().then((string) => console.log(string));
+hello().then((string) => console.log(string))

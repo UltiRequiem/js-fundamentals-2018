@@ -16,4 +16,4 @@ module.exports = {
     'max-classes-per-file': 'off',
     'no-console': 'off',
   },
-};
+}

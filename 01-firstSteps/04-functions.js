@@ -4,9 +4,9 @@
  * @returns {string}: A pressentation.
  */
 function introduce(name, age) {
-  return `Hi! My name is ${name} and I'm ${age} years old.`;
+  return `Hi! My name is ${name} and I'm ${age} years old.`
 }
 
-console.log(introduce('Zero', 14));
-console.log(introduce('Pedro', 29));
-console.log(introduce('Marcela', 15));
+console.log(introduce('Zero', 14))
+console.log(introduce('Pedro', 29))
+console.log(introduce('Marcela', 15))

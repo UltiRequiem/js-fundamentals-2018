@@ -1,15 +1,15 @@
-const age = 14;
+const age = 14
 // age += 1
 
-let weigth = 60;
+let weigth = 60
 // weigth -=2
 // console.log(weigth)
 
-const sandwich = 1;
+const sandwich = 1
 
-weigth += sandwich;
+weigth += sandwich
 // console.log(weigth)
 
-const playSoccer = 3;
-weigth -= playSoccer;
-console.log(weigth);
+const playSoccer = 3
+weigth -= playSoccer
+console.log(weigth)

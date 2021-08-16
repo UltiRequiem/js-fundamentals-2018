@@ -8,10 +8,10 @@
 
 const divisionEntera = (dividendo, divisor) => {
   if (dividendo < divisor) {
-    return 0;
+    return 0
   }
 
-  return 1 + divisionEntera(dividendo - divisor, divisor);
-};
+  return 1 + divisionEntera(dividendo - divisor, divisor)
+}
 
-console.log(divisionEntera(13, 4));
+console.log(divisionEntera(13, 4))

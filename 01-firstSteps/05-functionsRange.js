@@ -1,7 +1,7 @@
-const nombre = 'zero';
+const nombre = 'zero'
 
 function imprimirNombreEnMayusculas(name) {
-  return name.toUpperCase();
+  return name.toUpperCase()
 }
 
-console.log(imprimirNombreEnMayusculas(nombre));
+console.log(imprimirNombreEnMayusculas(nombre))

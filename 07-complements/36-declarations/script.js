@@ -1,15 +1,15 @@
-const MAYORIA_DE_EDAD = 18;
+const MAYORIA_DE_EDAD = 18
 
 const esMayorDeEdad = (n) => {
-  let mensaje;
+  let mensaje
   if (n >= MAYORIA_DE_EDAD) {
-    mensaje = 'Es mayor de edad.';
+    mensaje = 'Es mayor de edad.'
   } else {
-    mensaje = 'Es menor de edad.';
+    mensaje = 'Es menor de edad.'
   }
-  console.log(mensaje);
-};
+  console.log(mensaje)
+}
 
 for (let i = 1; i <= 20; i++) {
-  esMayorDeEdad(i);
+  esMayorDeEdad(i)
 }

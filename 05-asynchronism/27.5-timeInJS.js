@@ -7,9 +7,9 @@
  */
 
 setTimeout(() => {
-  console.log('b');
-}, 0);
+  console.log('b')
+}, 0)
 
 for (let i = 0; i < 1000000000; i++) {
-  console.log(i);
+  console.log(i)
 }
